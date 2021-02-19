@@ -37,7 +37,7 @@ jobs:
         if: env.FL_flwURL
         run: |
           cd ~/JavaScript
-          node Task/flw.js
+          node Task/flw2.js
         env:
           
           PUSH_KEY: ${{ secrets.PUSH_KEY }}
