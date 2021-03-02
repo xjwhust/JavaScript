@@ -1,0 +1,12 @@
+//独立COOKIE文件     ck在``里面填写，多账号换行
+
+let yuedongzutokenVal = `Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wveXVlZG9uZ3p1LnlpY2hlbmd3LmNuXC9hcHBzXC9sb2dpblwvd2VjaGF0IiwiaWF0IjoxNjE0NjcwNzM1LCJleHAiOjIwNTM2MjcwNzM1LCJuYmYiOjE2MTQ2NzA3MzUsImp0aSI6IkdmV3lYTFFWYUdBQlJnQk8iLCJzdWIiOjMxODAzLCJwcnYiOiI0MWRmODgzNGYxYjk4ZjcwZWZhNjBhYWVkZWY0MjM0MTM3MDA2OTBjIn0.omRzXRJL1nULdniG7WpxWiQC1Q88i5hRMo6nS9YhuZ4`
+
+
+
+let yuedongzucookie = {
+    yuedongzutokenVal: yuedongzutokenVal,
+
+}
+
+module.exports = yuedongzucookie
