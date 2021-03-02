@@ -25,7 +25,7 @@ jobs:
           npm install
       - name: '运行 【yuedongzu】'
         run: |
-          node yuedongzu.js
+          node Task/yuedongzu.js
         env:
           YDZ_CASH: ${{ secrets.YDZ_CASH }}
           PUSH_KEY: ${{ secrets.PUSH_KEY }}
