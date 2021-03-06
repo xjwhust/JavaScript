@@ -31,7 +31,7 @@ jobs:
         run: |
           cd ~/JavaScript
           npm install
-      - name: '运行 【笑谱2】'
+      - name: '运行 【笑谱3】'
         if: env.XP_refreshTOKEN
         run: |
           cd ~/JavaScript
